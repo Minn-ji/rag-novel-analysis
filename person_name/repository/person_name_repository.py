@@ -53,7 +53,7 @@ class PersonNameRepository:
 
 
     def generate_wordcloud(self, freq, image_name='wordcloud_result'):
-        cloud = WordCloud(font_path = 'data/NanumSquareR.ttf', 
+        cloud = WordCloud(font_path = 'assets/NanumSquareR.ttf', 
                         background_color='white',
                         width=500, height=500)
         freq_cloud = cloud.generate_from_frequencies(freq)

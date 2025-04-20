@@ -9,7 +9,7 @@ def extract_person_name():
     splitted_texts = split_texts(texts)
 
     __personNameService.extract_person_name_with_RoBERTa(splitted_texts, 10,46,5)
-    # __personNameService.extract_person_name_with_Kkma(splitted_texts, 10,46,5)
+    __personNameService.extract_person_name_with_Kkma(splitted_texts, 10,46,5)
     
 
 if __name__ == '__main__':
