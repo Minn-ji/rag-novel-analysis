@@ -15,4 +15,8 @@
 *.pth
 *.env
 *.json
-*txt
+*.txt
+*.faiss
+*.pkl
+*.ttf
+*.index
